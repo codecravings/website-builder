@@ -13,7 +13,7 @@ interface WebsiteRequest {
 }
 
 class AIService {
-  private apiKey = 'add-yours'
+  private apiKey = 'YOUR-API-KEY'
   private baseUrl = 'https://api.deepseek.com/v1/chat/completions'
   private maxTokens = 8000
   private maxRetries = 3
